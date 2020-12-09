@@ -15,11 +15,12 @@
 
 ## Commands
 ### SpawnSCP343
-Command: spawnscp343
-Aliases: spawn343; 343
-Parameters: spawn343 <Playername/ID>
-<Playername/ID>: You can leave that empty (it will take your instead)
-Permission: scp343.spawn
+
+- Command: spawnscp343
+- Aliases: spawn343; 343
+- Parameters: spawn343 <Playername/ID>
+- <Playername/ID>: You can leave that empty (it will take your instead)
+- Permission: scp343.spawn
 
 Config Values | Default Value | Description
 ------------ | ------------- | -------------
