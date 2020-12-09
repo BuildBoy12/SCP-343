@@ -57,7 +57,8 @@ namespace Scp343.Components
                 return;
 
             ev.IsAllowed = false;
-            ev.Cuffer.Broadcast(3, "You cannot cuff <color=red>SCP-343</color>");
+            ev.Cuffer.Broadcast(Scp343.Singleton.Config.AttemptedCuff.Duration,
+                Scp343.Singleton.Config.AttemptedCuff.Content);
         }
 
         public void OnHurting(HurtingEventArgs ev)

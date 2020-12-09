@@ -31,5 +31,6 @@ can_grab | false | If Scp343 can pickup items
 can_drop | false | If Scp343 can drop items
 has_bypass | true | If Scp343 can open locked doors
 is_invincible | true | If Scp343 is immune to damage
+attempted_cuff | "You cannot cuff <color=red>SCP-343</color>" | The broadcast played to anyone attempting to disarm Scp343
 spawn_broadcast | "<b>You have spawned as <color=red>SCP-343</color></b>\n<i>Help your fellow <color=orange>Class-D</color> to escape!</i>" | Customize the broadcast SCP-343 gets when he spawns in.
 scp343Inventory | None |  The Items SCP-343 spawns with.
