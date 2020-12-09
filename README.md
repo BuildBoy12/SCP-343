@@ -16,23 +16,20 @@
 ## Commands
 ### SpawnSCP343
 
-- Command: spawnscp343
-- Aliases: spawn343; 343
+- Command: spawn343
+- Aliases: 343
 - Parameters: spawn343 <Playername/ID>
-- <Playername/ID>: You can leave that empty (it will take your instead)
+- <Playername/ID>: Leaving empty will make the sender a Scp343.
 - Permission: scp343.spawn
 
 Config Values | Default Value | Description
------------- | ------------- | -------------
-IsEnabled | true | Enable or Disable the SCP-343 Plugin.
-spawnChance | 33 | The chance that SCP-343 spawns in a round.
-canGrab | false | Should SCP-343 be able to pickup items?
-canDrop | false | Should SCP-343 be able to drop items?
-hasBypass | true | Should SCP-343 be able to open any door?
-isInvincible | true | Should SCP-343 be in godmode?
-spawnBroadcast | "<b>You have spawned as <color=red>SCP-343</color></b>\n<i>Help your fellow <color=orange>Class-D</color> to escape!</i>" | Customize the broadcast SCP-343 gets when he spawns in.
-broadcastLength | 10 | How long should Broadcast be? (in seconds)
-nukeDeath343 | "<b>The Powers of the Alpha Warhead have weakend you</b>" | Customize the broadcast SCP-343 gets when he dies to the nuke.
-deconDeath343 | "<b>The Decontamination has bring you down to your knees!</b>" | Customize the broadcast SCP-343 gets when he dies to the nuke.
-spawnItemsEnabled | false | Should SCP-343 spawn with items?
-scp343Inventory | None, None, None, None, None, None, None, None |  The Items SCP-343 spawns with.(Use the #resources channel on Discord for ItemType Names)
+------------ | -------- | -------------
+is_enabled | true | Enable or disable the SCP-343 Plugin.
+max_scp343s | 1 | The maximum amount of Scp343's that may spawn naturally.
+spawn_chance | 33 | The percentage that SCP-343 spawns in a round.
+can_grab | false | If Scp343 can pickup items
+can_drop | false | If Scp343 can drop items
+has_bypass | true | If Scp343 can open locked doors
+is_invincible | true | If Scp343 is immune to damage
+spawn_broadcast | "<b>You have spawned as <color=red>SCP-343</color></b>\n<i>Help your fellow <color=orange>Class-D</color> to escape!</i>" | Customize the broadcast SCP-343 gets when he spawns in.
+scp343Inventory | None |  The Items SCP-343 spawns with.
